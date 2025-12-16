@@ -21,8 +21,8 @@ You will build:
 - Chat window includes:
   - Header with:
     - Title (e.g. "Hotel Assistant")
-    - **Expand** button
-    - **Close** button
+    - Expand icon button
+    - Close icon button
   - Scrollable message list
   - Incoming and outgoing message bubble
   - Message input + send button
@@ -37,6 +37,7 @@ You will build:
 - Bot responds automatically via backend logic
 - Different styling for **user** and **bot** messages
 - Chat auto-scrolls to the newest message
+- Typing indicator ("Bot is typing...)
 
 ### Offer card
 A small card UI component contains an image, price, and offer name.
