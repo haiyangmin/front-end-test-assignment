@@ -41,12 +41,14 @@ You will build:
 ### Offer card
 A small card UI component contains an image, price, and offer name.
 An example offer response
+```ts
 {
   id: 232321,
   name: Room upgrade,
   price: 300 Euros
   imageUrl: https://guestjoy-attachments.s3.eu-west-1.amazonaws.com/eNsBKar09Le3SVt8MWiyMKJotluVS8IueTeCQnUT.jpg
 }
+```
 
 ### Offers response
 When the user types (case-insensitive):
@@ -63,4 +65,5 @@ type Offer = {
   price: number | null;
   imageUrl: string;
 };
+```
 
