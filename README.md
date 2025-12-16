@@ -47,7 +47,7 @@ An example offer response
   id: 232321,
   name: Room upgrade,
   price: 300,
-  imageUrl: https://guestjoy-attachments.s3.eu-west-1.amazonaws.com/eNsBKar09Le3SVt8MWiyMKJotluVS8IueTeCQnUT.jpg
+  imageUrl: https://mysleepyhead.com/media/catalog/product/q/u/queen_size_wooden_bed.jpg
 }
 ```
 
