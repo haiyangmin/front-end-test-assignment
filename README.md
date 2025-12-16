@@ -52,7 +52,7 @@ type Offer = {
   price: number | null;
   imageUrl: string;
 };
-
+```ts
 
 ### Offer card
 A small card UI component contains an image, price, and offer name.
@@ -64,3 +64,9 @@ An example offer response
   imageUrl: https://guestjoy-attachments.s3.eu-west-1.amazonaws.com/eNsBKar09Le3SVt8MWiyMKJotluVS8IueTeCQnUT.jpg
 }
 
+### Messaging behavior
+- User can type a message and send it
+- User message appears in the chat
+- Bot responds automatically via backend logic
+- Different styling for **user** and **bot** messages
+- Chat auto-scrolls to the newest message
