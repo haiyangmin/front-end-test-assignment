@@ -40,8 +40,8 @@ You will build:
 - Typing indicator ("Bot is typing...)
 
 ### Offer card
-A small card UI component contains an image, price, and offer name.
-An example offer response
+- A small card UI component contains an image, price, and offer name.
+- An example offer response
 ```ts
 {
   id: 232321,
