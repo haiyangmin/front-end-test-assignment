@@ -13,7 +13,7 @@ You will build:
 - A **Vue 3** frontend that renders a chat widget
 - A **Node.js** backend that simulates chatbot behavior
   
-- ## Functional requirements
+## Functional requirements
 
 ### Chat widget (Frontend)
 - Floating chat launcher in the **bottom-right corner**
@@ -36,4 +36,31 @@ You will build:
 - Bot responds automatically via backend logic
 - Different styling for **user** and **bot** messages
 - Chat auto-scrolls to the newest message
+
+### Offers response
+When the user types (case-insensitive):
+
+> **What offers do you have?**
+
+The bot must respond with a message containing **offers**, and the frontend needs to render multiple offers inside the chat window.
+
+Use the following type:
+```ts
+type Offer = {
+  id: string;
+  name: string;
+  price: number | null;
+  imageUrl: string;
+};
+
+
+### Offer card
+A small card UI component contains an image, price, and offer name.
+An example offer response
+{
+  id: 232321,
+  name: Room upgrade,
+  price: 300 Euros
+  imageUrl: https://guestjoy-attachments.s3.eu-west-1.amazonaws.com/eNsBKar09Le3SVt8MWiyMKJotluVS8IueTeCQnUT.jpg
+}
 
